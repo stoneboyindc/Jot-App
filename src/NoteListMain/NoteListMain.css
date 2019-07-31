@@ -1,0 +1,21 @@
+.NoteListMain ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 17px;
+  background-image: linear-gradient(to right, gainsboro, white);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  grid-gap: 20px;
+}
+
+.NoteListMain__button-container {
+  margin: 10px;
+}
+
+.NoteListMain__add-note-button {
+  margin: 0 auto 20px;
+}
+
+.Note {
+  justify-self: center;
+}

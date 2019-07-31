@@ -1,0 +1,18 @@
+.NavCircleButton {
+  background-color: #cacaca;
+  border-radius: 3px;
+  border: 0;
+  color: black;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  height: 50px;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+}
+
+.NavCircleButton:hover {
+  cursor: pointer;
+}
